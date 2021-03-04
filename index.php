@@ -9,7 +9,7 @@
 		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="view/css/main.css" />
 	</head>
 	<body class="is-preload">
 
@@ -20,7 +20,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="model/images/avatar.jpg" alt="" /></span>
 							<h1 id="title">Leo Widmer</h1>
 							<p>TBZ Student</p>
 						</div>
@@ -65,7 +65,7 @@
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Zum Portfolio</a>
+								<a href="anmeldung.html" class="button scrolly">Login</a>
 							</footer>
 
 						</div>
@@ -84,13 +84,13 @@
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="model/images/pic02.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 1</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="model/images/pic03.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 2</h3>
 										</header>
@@ -98,13 +98,13 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="model/images/pic04.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 3</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="model/images/pic05.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 4</h3>
 										</header>
@@ -112,13 +112,13 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="model/images/pic06.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 5</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="model/images/pic07.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 6</h3>
 										</header>
@@ -137,7 +137,7 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="model/images/pic08.jpg" alt="" /></a>
 
 							<p>Website für Modul 133</p>
 
@@ -183,13 +183,13 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="view/js/jquery.min.js"></script>
+			<script src="view/js/jquery.scrolly.min.js"></script>
+			<script src="view/js/jquery.scrollex.min.js"></script>
+			<script src="view/js/browser.min.js"></script>
+			<script src="view/js/breakpoints.min.js"></script>
+			<script src="view/js/util.js"></script>
+			<script src="view/js/main.js"></script>
 
 	</body>
 </html>
