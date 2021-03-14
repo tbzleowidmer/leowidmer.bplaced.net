@@ -20,7 +20,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="model/images/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="view/images/avatar.jpg" alt="" /></span>
 							<h1 id="title">Leo Widmer</h1>
 							<p>TBZ Student</p>
 						</div>
@@ -84,13 +84,13 @@
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="model/images/pic02.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="view/images/pic02.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 1</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="model/images/pic03.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="view/images/pic03.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 2</h3>
 										</header>
@@ -98,13 +98,13 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="model/images/pic04.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="view/images/pic04.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 3</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="model/images/pic05.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="view/images/pic05.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 4</h3>
 										</header>
@@ -112,13 +112,13 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="model/images/pic06.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="view/images/pic06.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 5</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="model/images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="view/images/pic07.jpg" alt="" /></a>
 										<header>
 											<h3>Bild 6</h3>
 										</header>
@@ -137,7 +137,7 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="model/images/pic08.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="view/images/pic08.jpg" alt="" /></a>
 
 							<p>Website für Modul 133</p>
 
@@ -154,15 +154,17 @@
 
 							<p>Wenn sie hier ihre Daten angeben, werden diese automatisch an meinen Händler des Vertauens verkauft</p>
 
-							<form method="post" action="#">
+							<form method="post" action="message.php">
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="vorname" placeholder="Vorname" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="nachname" placeholder="Nachname" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="E-Mail" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="botcheck" placeholder="Robo Check (9+5= ?)" /></div>
 									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
+										<input type="text" name="message" placeholder="Message"></input>
 									</div>
 									<div class="col-12">
-										<input type="submit" value="Send Message" />
+										<a href="message.php" class="button scrolly">Send message</a>
 									</div>
 								</div>
 							</form>
