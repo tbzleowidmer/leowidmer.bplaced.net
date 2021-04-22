@@ -16,7 +16,9 @@ function showAdminView( $email )
   $result = $mysqli->query($sql);
 
   $html[] ='<h1> Willkommen ' . $email . '</h1>';
-  $html[] ='<a href="control/abmeldung.php" class="button scrolly">Logout</a>';
+  $html[] ='<h2> Admin View </h2>';
+  $html[] ='<a href="control/abmeldung.php" class="button scrolly" style ="position:absolute;right:2px;top:2px;">Logout</a>';
+  $html[] ='<a href="registrieren.php" class="button scrolly" style ="position:absolute;right:185px;top:2px;">Add User</a>';
   $html[] ='  <table id="data_table">';
   $html[] ='    <thead>';
   $html[] ='      <tr>';
@@ -60,7 +62,8 @@ function showDefaultView( $email )
   $result = $mysqli->query($sql);
 
   $html[] ='<h1> Wilkommen ' . $email . '</h1>';
-  $html[] ='<a href="control/abmeldung.php" class="button scrolly">Logout</a>';
+  $html[] ='<h2> User View </h2>';
+  $html[] ='<a href="control/abmeldung.php" class="button scrolly" style ="position:absolute;right:2px;top:2px;">Logout</a>';
   $html[] ='<table>';
   $html[] =' <tr>';
   $html[] ='   <th>ID: </th>';
